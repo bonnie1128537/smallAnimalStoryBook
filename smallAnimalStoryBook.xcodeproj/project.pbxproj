@@ -13,6 +13,14 @@
 		593944E124445381004EA854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593944E024445381004EA854 /* Assets.xcassets */; };
 		593944E424445381004EA854 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593944E324445381004EA854 /* Preview Assets.xcassets */; };
 		593944E724445381004EA854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593944E524445381004EA854 /* LaunchScreen.storyboard */; };
+		593944EF24445FE4004EA854 /* YuruttoTownIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593944EE24445FE4004EA854 /* YuruttoTownIntroView.swift */; };
+		593944F1244472E8004EA854 /* jf-openhuninn-1.0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 593944F0244472E8004EA854 /* jf-openhuninn-1.0.ttf */; };
+		593944F524447FF6004EA854 /* CharacterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593944F424447FF6004EA854 /* CharacterRow.swift */; };
+		593944F7244485B2004EA854 /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593944F6244485B2004EA854 /* CharacterList.swift */; };
+		593944F92444862C004EA854 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593944F82444862C004EA854 /* Character.swift */; };
+		593944FB24448B6C004EA854 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593944FA24448B6C004EA854 /* Data.swift */; };
+		593944FD244492A9004EA854 /* CharacterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593944FC244492A9004EA854 /* CharacterDetail.swift */; };
+		593944FF244498F7004EA854 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593944FE244498F7004EA854 /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		593944E324445381004EA854 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		593944E624445381004EA854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		593944E824445381004EA854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593944EE24445FE4004EA854 /* YuruttoTownIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuruttoTownIntroView.swift; sourceTree = "<group>"; };
+		593944F0244472E8004EA854 /* jf-openhuninn-1.0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-openhuninn-1.0.ttf"; sourceTree = "<group>"; };
+		593944F424447FF6004EA854 /* CharacterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRow.swift; sourceTree = "<group>"; };
+		593944F6244485B2004EA854 /* CharacterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
+		593944F82444862C004EA854 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		593944FA24448B6C004EA854 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		593944FC244492A9004EA854 /* CharacterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetail.swift; sourceTree = "<group>"; };
+		593944FE244498F7004EA854 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +72,17 @@
 		593944D92444537E004EA854 /* smallAnimalStoryBook */ = {
 			isa = PBXGroup;
 			children = (
+				593944F424447FF6004EA854 /* CharacterRow.swift */,
+				593944FA24448B6C004EA854 /* Data.swift */,
+				593944F6244485B2004EA854 /* CharacterList.swift */,
+				593944FC244492A9004EA854 /* CharacterDetail.swift */,
+				593944F82444862C004EA854 /* Character.swift */,
+				593944F0244472E8004EA854 /* jf-openhuninn-1.0.ttf */,
 				593944DA2444537E004EA854 /* AppDelegate.swift */,
 				593944DC2444537E004EA854 /* SceneDelegate.swift */,
 				593944DE2444537E004EA854 /* ContentView.swift */,
+				593944FE244498F7004EA854 /* AppView.swift */,
+				593944EE24445FE4004EA854 /* YuruttoTownIntroView.swift */,
 				593944E024445381004EA854 /* Assets.xcassets */,
 				593944E524445381004EA854 /* LaunchScreen.storyboard */,
 				593944E824445381004EA854 /* Info.plist */,
@@ -133,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				593944F1244472E8004EA854 /* jf-openhuninn-1.0.ttf in Resources */,
 				593944E724445381004EA854 /* LaunchScreen.storyboard in Resources */,
 				593944E424445381004EA854 /* Preview Assets.xcassets in Resources */,
 				593944E124445381004EA854 /* Assets.xcassets in Resources */,
@@ -146,9 +171,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				593944FD244492A9004EA854 /* CharacterDetail.swift in Sources */,
+				593944F524447FF6004EA854 /* CharacterRow.swift in Sources */,
+				593944EF24445FE4004EA854 /* YuruttoTownIntroView.swift in Sources */,
+				593944F92444862C004EA854 /* Character.swift in Sources */,
 				593944DB2444537E004EA854 /* AppDelegate.swift in Sources */,
+				593944F7244485B2004EA854 /* CharacterList.swift in Sources */,
 				593944DD2444537E004EA854 /* SceneDelegate.swift in Sources */,
 				593944DF2444537E004EA854 /* ContentView.swift in Sources */,
+				593944FF244498F7004EA854 /* AppView.swift in Sources */,
+				593944FB24448B6C004EA854 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
