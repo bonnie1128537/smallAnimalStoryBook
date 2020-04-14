@@ -12,14 +12,25 @@ struct CharacterList: View {
     var body: some View {
         NavigationView {
             List {
+                ScrollView(.horizontal){
+                    HStack(spacing: 20) {
+                        ForEach(1 ..< 5){(item) in
+                            Image("\(item)")
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: 200)
+                                .clipped()
+                        }
+                    }
+                }
                 ForEach(characters.indices){(item) in
                     NavigationLink(destination: CharacterDetail(character: characters[item])){
                         CharacterRow(character: characters[item])
                     }
                 }
-                .listRowInsets(EdgeInsets())
-                .navigationBarTitle("角色介紹")
+                .listRowInsets(EdgeInsets(top: 15, leading: 10, bottom: 15, trailing: 30))
             }
+            .navigationBarTitle("愜意小鎮的居民們")
         }
     }
 }

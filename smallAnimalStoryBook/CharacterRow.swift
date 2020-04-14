@@ -17,6 +17,9 @@ struct CharacterRow: View {
                 .scaledToFill()
                 .frame(width: 80, height: 80)
                 .clipped()
+                .clipShape(Circle())
+                .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                .shadow(radius: 5)
             VStack(alignment: .leading){
                 Text(character.name).font(Font.custom("jf-openhuninn-1.0", size: 22))
                 Text(character.ename)

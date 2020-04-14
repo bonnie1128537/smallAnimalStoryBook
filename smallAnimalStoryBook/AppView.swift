@@ -14,15 +14,16 @@ struct AppView: View {
             ContentView()
                 .tabItem{
                     Image(systemName: "house.fill")
-                    Text("首頁")
+                    Text("小鎮")
             }
             CharacterList()
                 .tabItem{
                     Image(systemName: "person.2.fill")
-                    Text("角色")
+                    Text("居民")
             }
         }
         .edgesIgnoringSafeArea(.top)
+        .accentColor(Color(hue: 0.975, saturation: 0.395, brightness: 0.958))
     }
 }
 
