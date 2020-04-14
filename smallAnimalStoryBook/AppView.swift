@@ -22,6 +22,7 @@ struct AppView: View {
                     Text("角色")
             }
         }
+        .edgesIgnoringSafeArea(.top)
     }
 }
 

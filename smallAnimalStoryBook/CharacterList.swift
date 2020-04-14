@@ -11,12 +11,15 @@ import SwiftUI
 struct CharacterList: View {
     var body: some View {
         NavigationView {
-            List(characters.indices){(item) in
-                NavigationLink(destination: CharacterDetail(character: characters[item])){
-                    CharacterRow(character: characters[item])
+            List {
+                ForEach(characters.indices){(item) in
+                    NavigationLink(destination: CharacterDetail(character: characters[item])){
+                        CharacterRow(character: characters[item])
+                    }
                 }
+                .listRowInsets(EdgeInsets())
+                .navigationBarTitle("角色介紹")
             }
-        .navigationBarTitle("角色介紹")
         }
     }
 }
