@@ -16,7 +16,7 @@ struct YuruttoTownIntroView: View {
                 .scaledToFit()
                     .navigationBarTitle(Text("愜意小鎮特展").font(Font.custom("jf-openhuninn-1.0", size: 22)), displayMode: .inline)
                 
-                Text("探P助與粉紅兔兔的日常生活\n\n")
+                Text("卡娜赫拉的小動物，P助與粉紅兔兔和小動物們的日常生活\n\n")
                     .font(Font.custom("jf-openhuninn-1.0", size: 22))
                 Spacer()
         }
