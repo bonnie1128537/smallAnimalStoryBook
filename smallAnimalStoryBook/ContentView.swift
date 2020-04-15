@@ -22,7 +22,7 @@ struct ContentView: View {
                 .frame(minWidth: 0, maxWidth: .infinity)
                 .edgesIgnoringSafeArea(.all)
                 VStack {
-            Text("卡娜赫拉的小動物").font(Font.custom("jf-openhuninn-1.0", size: 35))
+            //Text("卡娜赫拉的小動物").font(Font.custom("jf-openhuninn-1.0", size: 35))
                     
                 Text("in").font(Font.custom("jf-openhuninn-1.0", size: 29))
                         
@@ -54,7 +54,8 @@ struct ContentView: View {
                     Spacer()
                 }
             }
-        }.navigationBarTitle("展覽介紹")
+            .navigationBarTitle("卡娜赫拉的小動物")
+        }
     }
 }
 

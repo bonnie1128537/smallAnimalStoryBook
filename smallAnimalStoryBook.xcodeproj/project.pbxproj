@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B94F0062446D695008E7838 /* GridLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94F0052446D695008E7838 /* GridLayoutView.swift */; };
 		593944DB2444537E004EA854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593944DA2444537E004EA854 /* AppDelegate.swift */; };
 		593944DD2444537E004EA854 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593944DC2444537E004EA854 /* SceneDelegate.swift */; };
 		593944DF2444537E004EA854 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593944DE2444537E004EA854 /* ContentView.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B94F0052446D695008E7838 /* GridLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutView.swift; sourceTree = "<group>"; };
 		5935DFA72445CF9D00CC3AA9 /* Kanahei's E-Book.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Kanahei's E-Book.entitlements"; sourceTree = "<group>"; };
 		593944D72444537E004EA854 /* Kanahei's E-Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kanahei's E-Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		593944DA2444537E004EA854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				593944DC2444537E004EA854 /* SceneDelegate.swift */,
 				593944DE2444537E004EA854 /* ContentView.swift */,
 				593944FE244498F7004EA854 /* AppView.swift */,
+				3B94F0052446D695008E7838 /* GridLayoutView.swift */,
 				593944EE24445FE4004EA854 /* YuruttoTownIntroView.swift */,
 				593944E024445381004EA854 /* Assets.xcassets */,
 				593944E524445381004EA854 /* LaunchScreen.storyboard */,
@@ -180,6 +183,7 @@
 				593944DB2444537E004EA854 /* AppDelegate.swift in Sources */,
 				593944F7244485B2004EA854 /* CharacterList.swift in Sources */,
 				593944DD2444537E004EA854 /* SceneDelegate.swift in Sources */,
+				3B94F0062446D695008E7838 /* GridLayoutView.swift in Sources */,
 				593944DF2444537E004EA854 /* ContentView.swift in Sources */,
 				593944FF244498F7004EA854 /* AppView.swift in Sources */,
 				593944FB24448B6C004EA854 /* Data.swift in Sources */,

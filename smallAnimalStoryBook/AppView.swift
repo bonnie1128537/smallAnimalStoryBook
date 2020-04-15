@@ -21,8 +21,12 @@ struct AppView: View {
                     Image(systemName: "person.2.fill")
                     Text("居民")
             }
+            GridLayoutView()
+                .tabItem{
+                    Image(systemName: "tray.2.fill")
+                    Text("回憶")
+            }
         }
-        .edgesIgnoringSafeArea(.top)
         .accentColor(Color(hue: 0.975, saturation: 0.395, brightness: 0.958))
     }
 }
